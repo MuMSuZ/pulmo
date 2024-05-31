@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-def bode(bmi, fev1_percent, mrc_dyspnea, walk_distance):
+def bode_index(bmi, fev1_percent, mrc_dyspnea, walk_distance):
     if bmi < 21:
         bmi_score = 1
     else:
@@ -50,7 +50,7 @@ def calculate():
     mrc_dyspnea = int(request.form['mrc_dyspnea'])
     walk_distance = float(request.form['walk_distance'])
     
-    score = bode(bmi, fev1_percent, mrc_dyspnea, walk_distance)
+    score = bode_index(bmi, fev1_percent, mrc_dyspnea, walk_distance)
     
     return render_template('result.html', score=score)
 
