@@ -1,2 +1,1 @@
-web: python bode.py
-web: python cat.py
+web: python app.py
