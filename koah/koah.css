@@ -48,3 +48,9 @@ ul li::before {
     margin-right: 10px;
     color: #00796b;
 }
+
+/* Link altındaki çizgiyi kaldırmak için */
+a {
+    text-decoration: none;
+    color: inherit; /* Link rengini miras almak için */
+}
