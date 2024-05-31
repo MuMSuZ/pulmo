@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-def bode_index(bmi, fev1_percent, mrc_dyspnea, walk_distance):
+def bode(bmi, fev1_percent, mrc_dyspnea, walk_distance):
     if bmi < 21:
         bmi_score = 1
     else:
