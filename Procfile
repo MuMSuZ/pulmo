@@ -1,2 +1,2 @@
 web: python bode.py
-worker: python cat.py
+web: python cat.py
