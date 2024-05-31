@@ -1,1 +1,1 @@
-web: python bode.py
+web: cd koah/bode_index && python bode.py
