@@ -47,4 +47,5 @@ ul li::before {
     content: "✔️";
     margin-right: 10px;
     color: #00796b;
+    text-decoration: none;
 }
