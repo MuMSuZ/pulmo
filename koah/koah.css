@@ -29,6 +29,7 @@ main {
 ul {
     list-style-type: none;
     padding: 0;
+    text-decoration: none;
 }
 
 ul li {
