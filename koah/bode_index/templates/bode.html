@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BODE İndeksi Hesaplama</title>
+    <link rel="stylesheet" href="/static/bode.css">
+</head>
+<body>
+    <header>
+        <h1>BODE İndeksi Hesaplama</h1>
+    </header>
+    <main>
+        <form action="/calculate" method="POST">
+            <label for="bmi">BMI:</label>
+            <input type="number" step="0.1" name="bmi" required><br>
+            <label for="fev1_percent">FEV1 (%):</label>
+            <input type="number" step="0.1" name="fev1_percent" required><br>
+            <label for="mrc_dyspnea">MRC Dyspnea:</label>
+            <input type="number" step="1" name="mrc_dyspnea" required><br>
+            <label for="walk_distance">Yürüyüş Mesafesi (m):</label>
+            <input type="number" step="0.1" name="walk_distance" required><br>
+            <button type="submit">Hesapla</button>
+        </form>
+    </main>
+</body>
+</html>
