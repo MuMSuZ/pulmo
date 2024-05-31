@@ -11,30 +11,40 @@ body {
 header {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
     width: 100%;
     text-align: center;
 }
 
-nav {
-    margin-top: 20px;
+main {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-nav ul {
+ul {
     list-style-type: none;
     padding: 0;
 }
 
-nav ul li {
+ul li {
+    background: #e0f7fa;
     margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
+ul li:hover {
+    background: #b2ebf2;
 }
 
-nav ul li a:hover {
-    color: #4CAF50;
+ul li::before {
+    content: "✔️";
+    margin-right: 10px;
+    color: #00796b;
 }
