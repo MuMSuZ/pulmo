@@ -1,5 +1,6 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 from waitress import serve
+import os
 
 app = Flask(__name__)
 
@@ -39,8 +40,8 @@ def bode_index(bmi, fev1_percent, mrc_dyspnea, walk_distance):
     return bmi_score + fev1_score + mrc_score + walk_score
 
 @app.route('/')
-def index():
-    return render_template('index.html')
+def bode():
+    return render_template('bode.html')
 
 @app.route('/calculate', methods=['POST'])
 def calculate():
@@ -54,4 +55,5 @@ def calculate():
     return render_template('result.html', score=score)
 
 if __name__ == '__main__':
-    serve(app, host='0.0.0.0', port=8080)
+    port = int(os.environ.get("PORT", 8080))
+    serve(app, host='0.0.0.0', port=port)
