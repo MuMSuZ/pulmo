@@ -12,5 +12,5 @@ function calculateCat(event) {
 
     const score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8;
 
-    document.getElementById('result').innerHTML = `Hesaplanan CAT Skoru: ${score}`;
+    document.getElementById('result').innerHTML = `CAT Skoru: ${score}`;
 }
