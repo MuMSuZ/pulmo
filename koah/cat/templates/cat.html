@@ -31,27 +31,27 @@
                 <div class="form-group">
                     <label for="q2">Balgam:</label>
                     <div class="rating-container">
-                        <span>Hiç Balgam Yok</span>
+                        <span>Hiç balgam yok</span>
                         <div class="rating">
                             {% for i in range(1, 6) %}
                                 <input type="radio" id="q2_{{ i }}" name="q2" value="{{ i }}" required>
                                 <label for="q2_{{ i }}">{{ i }}</label>
                             {% endfor %}
                         </div>
-                        <span>Sürekli Balgam</span>
+                        <span>Tamamen balgam dolu</span>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="q3">Göğüs Tıkanıklığı:</label>
+                    <label for="q3">Göğüsümde Tıkanıklığı:</label>
                     <div class="rating-container">
-                        <span>Hiç tıkanıklık yok</span>
+                        <span>Göğsümde daralma yok</span>
                         <div class="rating">
                             {% for i in range(1, 6) %}
                                 <input type="radio" id="q3_{{ i }}" name="q3" value="{{ i }}" required>
                                 <label for="q3_{{ i }}">{{ i }}</label>
                             {% endfor %}
                         </div>
-                        <span>Sürekli tıkanıklık</span>
+                        <span>Göğsümde çok daralma var</span>
                     </div>
                 </div>
                 <div class="form-group">
