@@ -1,16 +1,26 @@
-function calculateCat(event) {
+document.getElementById('doseForm').addEventListener('submit', function(event) {
     event.preventDefault();
+    
+    const dyspnea = parseInt(document.querySelector('[name="dyspnea"]').value);
+    const obstruction = parseInt(document.querySelector('[name="obstruction"]').value);
+    const smokingStatus = parseInt(document.querySelector('[name="smoking_status"]').value);
+    const exacerbations = parseInt(document.querySelector('[name="exacerbations"]').value);
 
-    const q1 = parseInt(document.getElementById('q1').value);
-    const q2 = parseInt(document.getElementById('q2').value);
-    const q3 = parseInt(document.getElementById('q3').value);
-    const q4 = parseInt(document.getElementById('q4').value);
-    const q5 = parseInt(document.getElementById('q5').value);
-    const q6 = parseInt(document.getElementById('q6').value);
-    const q7 = parseInt(document.getElementById('q7').value);
-    const q8 = parseInt(document.getElementById('q8').value);
-
-    const score = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8;
-
-    document.getElementById('result').innerHTML = `CAT Skoru: ${score}`;
-}
+    fetch('/calculate', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            dyspnea: dyspnea,
+            obstruction: obstruction,
+            smoking_status: smokingStatus,
+            exacerbations: exacerbations
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        const resultDiv = document.getElementById('result');
+        resultDiv.innerHTML = `<p>Hesaplanan DOSE İndeksi: ${data.score}</p>`;
+    });
+});
