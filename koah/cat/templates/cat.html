@@ -25,12 +25,13 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="q2">Balgam:</label>
+                    <label for="q2">Hiç Balgam Yok</label>
                     <div class="rating">
                         {% for i in range(1, 6) %}
                             <input type="radio" id="q2_{{ i }}" name="q2" value="{{ i }}" required>
                             <label for="q2_{{ i }}">{{ i }}</label>
                         {% endfor %}
+                    <label for="q2">Sürekli Balgam Var</label>
                     </div>
                 </div>
                 <div class="form-group">
