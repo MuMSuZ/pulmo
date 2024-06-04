@@ -77,6 +77,9 @@ footer {
 }
 
 .form-group option {
+    flex: 1;
+    padding: 10px 20 px;
+    width: 100%;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 2px;
