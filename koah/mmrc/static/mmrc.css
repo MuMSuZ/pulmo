@@ -50,12 +50,12 @@ header .container {
     border-radius: 8px;
 }
 
-ul.mmrc-list {
+ul {
     list-style-type: none; /* Noktaları kaldır */
     padding: 0;
 }
 
-ul.mmrc-list li {
+ul li {
     background-color: #f9f9f9; /* Hafif gri arka plan */
     margin: 10px 0;
     padding: 10px;
