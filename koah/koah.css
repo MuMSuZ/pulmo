@@ -70,7 +70,17 @@ ul li a:hover {
     max-width: 800px;
 }
 
-  footer {
+.form-group {
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+footer {
     text-align: center;
     font-size: 0.9em;
     color: #777;
