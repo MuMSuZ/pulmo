@@ -3,39 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAT Skoru</title>
-    <link rel="stylesheet" href="/static/cat.css">
+    <title>mMRC Dyspnea Ölçeği</title>
+    <link rel="stylesheet" href="mmrc.css">
 </head>
 <body>
+    <a href="https://mumsuz.github.io/pulmocalc/index.html" class="btn btn-secondary back-button">Geri</a>
     <header>
-        <h1>CAT Skoru</h1>
+        <div class="container">
+            <h1>mMRC Dyspnea Ölçeği</h1>
+            <p>Nefes darlığı seviyenizi değerlendirin.</p>
+        </div>
     </header>
     <main>
-        <form id="catForm" action="/cat/calculate" method="POST">
-            <label for="q1">Öksürük:</label>
-            <input type="number" id="q1" name="q1" min="0" max="5" required><br>
-            <label for="q2">Balgam:</label>
-            <input type="number" id="q2" name="q2" min="0" max="5" required><br>
-            <label for="q3">Göğüs Tıkanıklığı:</label>
-            <input type="number" id="q3" name="q3" min="0" max="5" required><br>
-            <label for="q4">Merdiven Çıkarken Nefes Darlığı:</label>
-            <input type="number" id="q4" name="q4" min="0" max="5" required><br>
-            <label for="q5">Ev İşlerini Yaparken Zorluk:</label>
-            <input type="number" id="q5" name="q5" min="0" max="5" required><br>
-            <label for="q6">Dışarı Çıkarken Güvensizlik:</label>
-            <input type="number" id="q6" name="q6" min="0" max="5" required><br>
-            <label for="q7">Uyku Problemleri:</label>
-            <input type="number" id="q7" name="q7" min="0" max="5" required><br>
-            <label for="q8">Enerji Eksikliği:</label>
-            <input type="number" id="q8" name="q8" min="0" max="5" required><br>
-            <button type="submit">Hesapla</button>
-        </form>
-        <div id="result">
-            {% if score is not none %}
-                <p>CAT Skoru: {{ score }}</p>
-            {% endif %}
+        <div class="container mt-5">
+            <form id="mmrcForm">
+                <div class="form-group">
+                    <label for="degree0">
+                        <input type="radio" id="degree0" name="mmrc" value="0" required> 
+                        Derece 0: Nefes darlığı yalnızca çok yoğun efor sırasında.
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="degree1">
+                        <input type="radio" id="degree1" name="mmrc" value="1" required> 
+                        Derece 1: Hızlı yürürken veya hafif bir yokuş çıkarken nefes darlığı.
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="degree2">
+                        <input type="radio" id="degree2" name="mmrc" value="2" required> 
+                        Derece 2: Kendi hızında düz yolda yürürken, yaşıtlarına göre daha yavaş yürümek zorunda kalmak veya nefes darlığı nedeniyle duraklamak zorunda kalmak.
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="degree3">
+                        <input type="radio" id="degree3" name="mmrc" value="3" required> 
+                        Derece 3: Düz yolda 100 metre yürüdükten sonra veya birkaç dakika yürüdükten sonra duraklamak zorunda kalmak.
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="degree4">
+                        <input type="radio" id="degree4" name="mmrc" value="4" required> 
+                        Derece 4: Evde giysilerini değiştirirken dahi nefes darlığı veya evden çıkamayacak kadar nefes darlığı.
+                    </label>
+                </div>
+                <div class="button-container">
+                    <button type="submit" class="btn btn-primary">Değerlendir</button>
+                </div>
+            </form>
+            <div class="result mt-4" id="result"></div>
         </div>
     </main>
-    <script src="/static/cat.js"></script>
+    <footer class="footer">
+        <p>&copy; 2024 Designed by MuMSuZ</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('mmrcForm');
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                const mmrcValue = document.querySelector('input[name="mmrc"]:checked').value;
+                let comment = '';
+                switch(mmrcValue) {
+                    case '0':
+                        comment = 'Derece 0: Nefes darlığı yalnızca çok yoğun efor sırasında.';
+                        break;
+                    case '1':
+                        comment = 'Derece 1: Hızlı yürürken veya hafif bir yokuş çıkarken nefes darlığı.';
+                        break;
+                    case '2':
+                        comment = 'Derece 2: Kendi hızında düz yolda yürürken, yaşıtlarına göre daha yavaş yürümek zorunda kalmak veya nefes darlığı nedeniyle duraklamak zorunda kalmak.';
+                        break;
+                    case '3':
+                        comment = 'Derece 3: Düz yolda 100 metre yürüdükten sonra veya birkaç dakika yürüdükten sonra duraklamak zorunda kalmak.';
+                        break;
+                    case '4':
+                        comment = 'Derece 4: Evde giysilerini değiştirirken dahi nefes darlığı veya evden çıkamayacak kadar nefes darlığı.';
+                        break;
+                }
+                document.getElementById('result').innerHTML = `Sonuç: ${comment}`;
+            });
+        });
+    </script>
 </body>
 </html>
