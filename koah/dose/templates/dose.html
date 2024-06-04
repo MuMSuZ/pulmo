@@ -13,7 +13,7 @@
         </div>
     </header>
     <div class="container mt-5">
-        <form id="doseForm" action="/calculate" method="post" onsubmit="calculateDose(event)">
+        <form id="doseForm" onsubmit="calculateDose(event)">
             <div class="form-group">
                 <label for="dyspnea">mMRC:</label>
                 <input type="number" class="form-control" id="dyspnea" name="dyspnea" min="0" max="3" required>
@@ -45,7 +45,7 @@
         </div>
     </div>
     <footer class="footer">
-        <p>&copy; 2024 Ayla LTD</p>
+        <p>&copy; 2024 Designed by MuMSuZ</p>
     </footer>
     <script src="/static/dose.js"></script>
 </body>
