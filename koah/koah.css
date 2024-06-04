@@ -1,48 +1,47 @@
-/* General styles */
+/* Genel stiller */
 body {
-    font-family: sans-serif;
-    margin: 0;
+    font-family: sans-serif;  /* Yazı tipi sans-serif olarak ayarlandı */
+    margin: 0;               /* Sayfanın etrafındaki boşluk kaldırıldı */
   }
   
   a {
-    color: #333;
-    text-decoration: none; /* Remove underlines from links */
+    color: #333;              /* Linklerin rengi koyu gri olarak ayarlandı */
+    text-decoration: none;   /* Linklerin alt çizgisi kaldırıldı */
   }
   
   a:hover {
-    color: #666;
+    color: #666;              /* Link üzerine gelindiğinde rengi açık griye dönüşüyor */
   }
   
-  /* Container styles */
+  /* Kapsayıcı stiller */
   .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 800px;        /* Kapsayıcının maksimum genişliği 800px olarak ayarlandı */
+    margin: 0 auto;           /* Kapsayıcı sayfa ortasına hizalandı */
+    padding: 20px;             /* Kapsayıcının iç boşluğu 20px olarak ayarlandı */
   }
   
-  /* Header container styles */
+  /* Header (başlık) kapsayıcı stilleri */
   .header-container {
-    background-color: purple; /* Set header background color to purple */
-    padding: 10px 0;
+    background-color: purple; /* Headerın arkaplan rengi mor olarak ayarlandı */
+    padding: 10px 0;          /* Headerın iç boşluğu yukarıdan 10px, aşağıdan 0px olarak ayarlandı */
   }
   
   h1 {
-    text-align: center;
-    color: white; /* Set header text color to white */
+    text-align: center;      /* Başlık metni ortalandı */
+    color: white;            /* Başlık metni rengi beyaz olarak ayarlandı */
   }
   
-  /* Link container styles */
+  /* Link kapsayıcı stilleri */
   .link-container {
-    background-color: white; /* Set link container background color to white */
-    padding: 20px;
+    background-color: white; /* Link kapsayıcısının arkaplan rengi beyaz olarak ayarlandı */
+    padding: 20px;             /* Link kapsayıcısının iç boşluğu 20px olarak ayarlandı */
   }
   
   ul {
-    list-style: none;
-    padding: 0;
+    list-style: none;         /* Sıralı liste simgeleri kaldırıldı */
+    padding: 0;               /* Listenin sol ve sağ tarafındaki boşluk kaldırıldı */
   }
   
   li {
-    margin-bottom: 10px;
-  }
-  
+    margin-bottom: 10px;      /* Liste öğeleri arasındaki boşluk 10px olarak ayarlandı */
+  }  
