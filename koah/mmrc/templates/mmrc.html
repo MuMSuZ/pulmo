@@ -16,74 +16,17 @@
     </header>
     <main>
         <div class="container mt-5">
-            <form id="mmrcForm">
-                <div class="form-group">
-                    <label for="degree0">
-                        <input type="radio" id="degree0" name="mmrc" value="0" required> 
-                        Derece 0: Nefes darlığı yalnızca çok yoğun efor sırasında.
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="degree1">
-                        <input type="radio" id="degree1" name="mmrc" value="1" required> 
-                        Derece 1: Hızlı yürürken veya hafif bir yokuş çıkarken nefes darlığı.
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="degree2">
-                        <input type="radio" id="degree2" name="mmrc" value="2" required> 
-                        Derece 2: Kendi hızında düz yolda yürürken, yaşıtlarına göre daha yavaş yürümek zorunda kalmak veya nefes darlığı nedeniyle duraklamak zorunda kalmak.
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="degree3">
-                        <input type="radio" id="degree3" name="mmrc" value="3" required> 
-                        Derece 3: Düz yolda 100 metre yürüdükten sonra veya birkaç dakika yürüdükten sonra duraklamak zorunda kalmak.
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="degree4">
-                        <input type="radio" id="degree4" name="mmrc" value="4" required> 
-                        Derece 4: Evde giysilerini değiştirirken dahi nefes darlığı veya evden çıkamayacak kadar nefes darlığı.
-                    </label>
-                </div>
-                <div class="button-container">
-                    <button type="submit" class="btn btn-primary">Değerlendir</button>
-                </div>
-            </form>
-            <div class="result mt-4" id="result"></div>
+            <ul class="mmrc-list">
+                <li>Derece 0: Nefes darlığı yalnızca çok yoğun efor sırasında.</li>
+                <li>Derece 1: Hızlı yürürken veya hafif bir yokuş çıkarken nefes darlığı.</li>
+                <li>Derece 2: Kendi hızında düz yolda yürürken, yaşıtlarına göre daha yavaş yürümek zorunda kalmak veya nefes darlığı nedeniyle duraklamak zorunda kalmak.</li>
+                <li>Derece 3: Düz yolda 100 metre yürüdükten sonra veya birkaç dakika yürüdükten sonra duraklamak zorunda kalmak.</li>
+                <li>Derece 4: Evde giysilerini değiştirirken dahi nefes darlığı veya evden çıkamayacak kadar nefes darlığı.</li>
+            </ul>
         </div>
     </main>
     <footer class="footer">
         <p>&copy; 2024 Designed by MuMSuZ</p>
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const form = document.getElementById('mmrcForm');
-            form.addEventListener('submit', function(event) {
-                event.preventDefault();
-                const mmrcValue = document.querySelector('input[name="mmrc"]:checked').value;
-                let comment = '';
-                switch(mmrcValue) {
-                    case '0':
-                        comment = 'Derece 0: Nefes darlığı yalnızca çok yoğun efor sırasında.';
-                        break;
-                    case '1':
-                        comment = 'Derece 1: Hızlı yürürken veya hafif bir yokuş çıkarken nefes darlığı.';
-                        break;
-                    case '2':
-                        comment = 'Derece 2: Kendi hızında düz yolda yürürken, yaşıtlarına göre daha yavaş yürümek zorunda kalmak veya nefes darlığı nedeniyle duraklamak zorunda kalmak.';
-                        break;
-                    case '3':
-                        comment = 'Derece 3: Düz yolda 100 metre yürüdükten sonra veya birkaç dakika yürüdükten sonra duraklamak zorunda kalmak.';
-                        break;
-                    case '4':
-                        comment = 'Derece 4: Evde giysilerini değiştirirken dahi nefes darlığı veya evden çıkamayacak kadar nefes darlığı.';
-                        break;
-                }
-                document.getElementById('result').innerHTML = `Sonuç: ${comment}`;
-            });
-        });
-    </script>
 </body>
 </html>
