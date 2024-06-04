@@ -1,53 +1,40 @@
-/* Genel stiller */
 body {
-    font-family: sans-serif;  /* Varsayılan yazı tipini ayarla */
-    margin: 0;  /* Gövdeden varsayılan kenarı kaldır */
-  }
-  
-  a {
-    text-decoration: none;  /* Bağlantılardan alt çizgiyi kaldır */
-    color: #333;  /* Varsayılan bağlantı rengini ayarla */
-  }
-  
-  a:hover {
-    color: #666;  /* Bağlantı rengini fareyle üzerine gelindiğinde değiştir */
-  }
-  
-  .container {
-    max-width: 800px;  /* Kapsayıcı için maksimum genişliği ayarla */
-    margin: 0 auto;  /* Kapsayıcıyı yatay olarak ortala */
-    padding: 20px;  /* Kapsayıcıya biraz dolgu ekle */
-  }
-  
-  /* Başlık stilleri */
-  header {
-    background-color: #eee;  /* Başlığa açık bir arka plan rengi ekle */
-    padding: 10px 0;  /* Başlığın üstüne ve altına biraz dolgu ekle */
-  }
-  
-  h1 {
-    text-align: center;  /* Başlık metnini ortala */
-  }
-  
-  /* Ana içerik stilleri */
-  main {
-    padding-top: 20px;  /* Ana içerik alanının üstüne biraz dolgu ekle */
-  }
-  
-  ul {
-    list-style: none;  /* Listeden madde işaretlerini kaldır */
-    padding: 0;  /* Listeden varsayılan dolguyu kaldır */
-  }
-  
-  li {
-    margin-bottom: 10px;  /* Liste öğeleri arasında biraz boşluk ekle */
-  }
-  
-  /* Geri düğmesi stilleri */
-  .back-button {
-    background-color: #ddd;  /* Geri düğmesi için arka plan rengini ayarla */
-    padding: 5px 10px;  /* Düğmeye biraz dolgu ekle */
-    border: 1px solid #ccc;  /* Düğmeye bir kenar ekle */
-    border-radius: 5px;  /* Düğmeye yuvarlatılmış köşeler ekle */
-  }
-  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
