@@ -1,0 +1,47 @@
+/* Genel stiller */
+body {
+    font-family: sans-serif;  /* Yazı tipi sans-serif olarak ayarlandı */
+    margin: 0;               /* Sayfanın etrafındaki boşluk kaldırıldı */
+  }
+  
+  a {
+    color: #333;              /* Linklerin rengi koyu gri olarak ayarlandı */
+    text-decoration: none;   /* Linklerin alt çizgisi kaldırıldı */
+  }
+  
+  a:hover {
+    color: #666;              /* Link üzerine gelindiğinde rengi açık griye dönüşüyor */
+  }
+  
+  /* Kapsayıcı stiller */
+  .container {
+    max-width: 800px;        /* Kapsayıcının maksimum genişliği 800px olarak ayarlandı */
+    margin: 0 auto;           /* Kapsayıcı sayfa ortasına hizalandı */
+    padding: 20px;             /* Kapsayıcının iç boşluğu 20px olarak ayarlandı */
+  }
+  
+  /* Header (başlık) kapsayıcı stilleri */
+  .header-container {
+    background-color: purple; /* Headerın arkaplan rengi mor olarak ayarlandı */
+    padding: 10px 0;          /* Headerın iç boşluğu yukarıdan 10px, aşağıdan 0px olarak ayarlandı */
+  }
+  
+  h1 {
+    text-align: center;      /* Başlık metni ortalandı */
+    color: white;            /* Başlık metni rengi beyaz olarak ayarlandı */
+  }
+  
+  /* Link kapsayıcı stilleri */
+  .link-container {
+    background-color: white; /* Link kapsayıcısının arkaplan rengi beyaz olarak ayarlandı */
+    padding: 20px;             /* Link kapsayıcısının iç boşluğu 20px olarak ayarlandı */
+  }
+  
+  ul {
+    list-style: none;         /* Sıralı liste simgeleri kaldırıldı */
+    padding: 0;               /* Listenin sol ve sağ tarafındaki boşluk kaldırıldı */
+  }
+  
+  li {
+    margin-bottom: 10px;      /* Liste öğeleri arasındaki boşluk 10px olarak ayarlandı */
+  }  
