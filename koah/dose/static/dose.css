@@ -204,7 +204,7 @@ header .container {
 /*Yazı tipi*/
 
 .info-section {
-    
+    text-decoration: none;
 }
 .indented-text {
     margin-left: 20px; /* Sayfanın solundan 20px boşluk bırakır */
