@@ -57,6 +57,7 @@ header .container {
     top: 10px;
     left: 10px;
     z-index: 1000; /* Üstte kalmasını sağlamak için z-index ayarlanmıştır */
+    text-decoration: none;
 }
 
 /*Form-group*/
