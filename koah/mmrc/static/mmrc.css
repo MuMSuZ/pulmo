@@ -1,83 +1,78 @@
+/* Genel stil ayarları */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #f8f9fa;
     color: #333;
 }
 
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Başlık stili */
 header {
-    background-color: white; /* Beyaz arka plan */
+    background-color: #007bff;
+    color: white;
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 header p {
-    margin: 10px 0 0;
+    margin: 0;
     font-size: 1.2em;
 }
 
-footer {
-    text-align: center;
-    font-size: 0.9em;
-    color: #777;
-    padding-top: 20px;
-    background-color: #f4f4f4;
-    border-top: 1px solid #ddd;
-}
-
-/*Container*/ 
-
-.container {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-}
-
-header .container {
-    background-color: #6a0dad; /* Mor arka plan */
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-ul.mmrc-list {
-    list-style-type: none; /* Noktaları kaldır */
-    padding: 0;
-}
-
-ul.mmrc-list li {
-    background-color: #f9f9f9; /* Hafif gri arka plan */
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    font-size: 1.2em;
+/* Ana içerik stili */
+main {
+    margin-top: 20px;
 }
 
 .mmrc-list {
-    background-color: #f9f9f9; /* Hafif gri arka plan */
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    font-size: 1.2em;
+    list-style-type: none;
+    padding: 0;
 }
 
-/* Butonların stilini ayarlar */
+.mmrc-list li {
+    background: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
 
-.back-button {
+/* Footer stili */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: white;
     position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1000; /* Üstte kalmasını sağlamak için z-index ayarlanmıştır */
+    width: 100%;
+    bottom: 0;
+}
+
+/* Geri düğmesi stili */
+.back-button {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
 }
