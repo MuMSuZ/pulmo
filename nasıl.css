@@ -1,0 +1,14 @@
+.indented-text {
+    margin-left: 20px; /* Sayfanın solundan 20px boşluk bırakır */
+    /* veya */
+    padding-left: 20px; /* İçeriden 20px boşluk bırakır */
+}
+.spaced-text {
+    margin-bottom: 20px; /* Alt kısımda 20px boşluk bırakır */
+}
+.spacer {
+    height: 20px; /* 20px boşluk bırakır */
+}
+.spaced-text {
+    margin-bottom: 20px; /* Alt kısımda 20px boşluk bırakır */
+}
