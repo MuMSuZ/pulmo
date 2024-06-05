@@ -1,0 +1,80 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Başlık stili */
+header {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header .container {
+    background-color: #6a0dad;
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Ana içerik stili */
+main {
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30px 30px 60px;
+    grid-template-rows: 60px 60px 120px;
+    gap: 10px;
+}
+
+.grid-item {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1em;
+}
+
+.large-item {
+    grid-column: 3;
+}
+
+.confirm {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.assess-degree {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.assess-symptoms {
+    grid-column: 2;
+    grid-row: 1;
+}
