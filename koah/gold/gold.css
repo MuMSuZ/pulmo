@@ -89,14 +89,14 @@ main {
 }
 
 .group-e {
-    grid-column: span 3;
+    grid-column: 3;
     grid-row: span 2;
     background-color: #ffcccb;
     font-size: 2em;
 }
 
 .group-a, .group-b {
-    grid-column: span 3;
+    grid-column: 3;
     background-color: #f0e68c;
     font-size: 2em;
 }
