@@ -48,12 +48,16 @@ header .container {
     border-radius: 8px;
 }
 
-ul {
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
     list-style-type: none; /* Noktaları kaldır */
     padding: 0;
 }
 
-li {
+nav ul li {
     background-color: #f9f9f9; /* Hafif gri arka plan */
     margin: 10px 0;
     padding: 10px;
@@ -61,13 +65,13 @@ li {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-li a {
+nav ul li a {
     text-decoration: none;
     color: #6a0dad; /* Mor yazı */
     font-weight: bold;
 }
 
-li a:hover {
+nav ul li a:hover {
     color: #4b0082; /* Koyu mor yazı */
 }
 
