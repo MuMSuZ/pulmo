@@ -45,7 +45,7 @@ main {
 
 .assessment-grid {
     display: grid;
-    grid-template-columns: 100px 100px 200pxSSS;
+    grid-template-columns: 100px 100px 200px;
     gap: 10px;
 }
 
