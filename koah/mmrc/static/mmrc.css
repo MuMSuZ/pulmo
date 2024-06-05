@@ -64,7 +64,7 @@ ul.mmrc-list li {
     font-size: 1.2em;
 }
 
-mmrc-list {
+.mmrc-list {
     background-color: #f9f9f9; /* Hafif gri arka plan */
     margin: 10px 0;
     padding: 10px;
