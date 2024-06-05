@@ -28,71 +28,33 @@ header h1 {
     font-size: 2.5em;
 }
 
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
 /* Ana içerik stili */
 main {
     margin-top: 20px;
 }
 
-.assessment-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 10px;
+.assessment, .exacerbation-risk, .combined-assessment {
+    margin-bottom: 40px;
 }
 
-.grid-item {
+.assessment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.assessment-list li {
     background: white;
+    margin-bottom: 10px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    font-size: 1em;
-}
-
-.confirm {
-    grid-column: span 2;
-}
-
-.assess-degree {
-    grid-column: span 2;
-}
-
-.assess-symptoms {
-    grid-column: span 2;
-}
-
-.post-bd {
-    grid-column: span 1;
-    grid-row: span 2;
-}
-
-.grade, .fev1, .gold1, .gold2, .gold3, .gold4 {
-    grid-column: span 1;
-}
-
-.exacerbations {
-    grid-column: span 2;
-}
-
-.exacerbations-high, .exacerbations-low {
-    grid-column: span 2;
-}
-
-.group-e {
-    grid-column: span 2;
-    grid-row: span 2;
-    background-color: #ffcccb;
-    font-size: 2em;
-}
-
-.group-a, .group-b {
-    grid-column: span 1;
-    background-color: #f0e68c;
-    font-size: 2em;
-}
-
-.symptom-severity, .symptom-severity-high {
-    grid-column: span 2;
+    font-size: 1.1em;
 }
 
 /* Footer stili */
@@ -121,4 +83,12 @@ main {
 
 .back-button:hover {
     background-color: #5a6268;
+}
+
+/*Kutu*/
+
+.kutu {
+    margin: auto;
+    box-sizing: 20px;
+    box-shadow: #5a6268;
 }

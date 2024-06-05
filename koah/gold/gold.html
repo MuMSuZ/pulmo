@@ -4,48 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KOAH Birleşik Değerlendirme</title>
-    <link rel="stylesheet" href="gold.css">
+    <link rel="stylesheet" href="koah.css">
 </head>
 <body>
     <a href="https://mumsuz.github.io/pulmocalc/koah/koah.html" class="btn btn-secondary back-button">Geri</a>
     <header>
         <div class="container">
             <h1>KOAH Birleşik Değerlendirme</h1>
-            <p>Hastalığınızın ciddiyetini ve yönetimini değerlendirin.</p>
         </div>
     </header>
     <main>
         <div class="container mt-5">
-            <section class="assessment">
-                <h2>Semptomlar</h2>
-                <ul class="assessment-list">
-                    <li>Hafif: Günlük aktivitelerde hafif nefes darlığı.</li>
-                    <li>Orta: Günlük aktivitelerde belirgin nefes darlığı.</li>
-                    <li>Şiddetli: Günlük aktivitelerde ciddi nefes darlığı.</li>
-                    <li>Çok Şiddetli: Günlük aktiviteleri yapamama.</li>
-                </ul>
-            </section>
-            <section class="exacerbation-risk">
-                <h2>Alevlenme Riski</h2>
-                <ul class="assessment-list">
-                    <li>Düşük: Yılda 0-1 alevlenme (hastaneye yatış gerektirmeyen).</li>
-                    <li>Yüksek: Yılda 2 veya daha fazla alevlenme veya hastaneye yatış gerektiren alevlenme.</li>
-                </ul>
-            </section>
-            <section class="combined-assessment">
-                <h2>Birleşik Değerlendirme</h2>
-                <p>Semptomlar ve alevlenme riski değerlendirilerek hastalar A, B, C ve D gruplarına ayrılır:</p>
-                <ul class="assessment-list">
-                    <li>Grup A: Düşük semptom, düşük alevlenme riski.</li>
-                    <li>Grup B: Yüksek semptom, düşük alevlenme riski.</li>
-                    <li>Grup C: Düşük semptom, yüksek alevlenme riski.</li>
-                    <li>Grup D: Yüksek semptom, yüksek alevlenme riski.</li>
-                </ul>
-            </section>
-        </div>
-        <div class="container">
-            <div class="kutu">
-                <p>Grup</p>
+            <div class="assessment-grid">
+                <div class="grid-item confirm">Spirometrik olarak konfirme et</div>
+                <div class="grid-item assess-degree">HY Obstrüksiyonun Derecesini Değerlendir</div>
+                <div class="grid-item assess-symptoms">Semptom, risk ve alevlenmeleri değerlendir</div>
+                <div class="grid-item post-bd">Post-BD FEV1/FVC&lt;70</div>
+                <div class="grid-item grade">Grade</div>
+                <div class="grid-item fev1">FEV1</div>
+                <div class="grid-item gold1">GOLD1<br>&ge;80</div>
+                <div class="grid-item gold2">GOLD2<br>50-79</div>
+                <div class="grid-item gold3">GOLD3<br>30-49</div>
+                <div class="grid-item gold4">GOLD4<br>&lt;30</div>
+                <div class="grid-item exacerbations">Alevlenme öyküsü</div>
+                <div class="grid-item exacerbations-high">&ge;2 orta alevlenme veya 1<sup>2</sup> hospitalizasyon gerektiren</div>
+                <div class="grid-item exacerbations-low">0 veya 1 orta alevlenme (hastane yatışı gerektirmeyen)</div>
+                <div class="grid-item group-e">E</div>
+                <div class="grid-item group-a">A</div>
+                <div class="grid-item group-b">B</div>
+                <div class="grid-item symptom-severity">mMRC 0-1<br>CAT&lt;10</div>
+                <div class="grid-item symptom-severity-high">mMRC &ge;2<br>CAT &ge;10</div>
             </div>
         </div>
     </main>
