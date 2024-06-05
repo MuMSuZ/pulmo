@@ -45,7 +45,7 @@ main {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 30px 30px 60px;
+    grid-template-columns: 60px 60px 120px;
     grid-template-rows: 60px 60px 120px;
     gap: 10px;
 }
