@@ -50,29 +50,6 @@ header .container {
     border-radius: 8px;
 }
 
-ul.mmrc-list {
-    list-style-type: none; /* Noktaları kaldır */
-    padding: 0;
-}
-
-ul.mmrc-list li {
-    background-color: #f9f9f9; /* Hafif gri arka plan */
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    font-size: 1.2em;
-}
-
-.mmrc-list {
-    background-color: #f9f9f9; /* Hafif gri arka plan */
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    font-size: 1.2em;
-}
-
 /* Butonların stilini ayarlar */
 
 .back-button {
@@ -80,6 +57,50 @@ ul.mmrc-list li {
     top: 10px;
     left: 10px;
     z-index: 1000; /* Üstte kalmasını sağlamak için z-index ayarlanmıştır */
+}
+
+/*Form-group*/
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 20px;  
+    background-color: white;
+}
+
+.form-group label {
+    flex: 2;
+    margin: 10px 20px auto;
+    padding: 10px 20px;
+    text-align: left;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-group span {
+    margin: center;
+    padding: 0px 20px;    
+}
+
+.form-group input {
+    flex: 1;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.form-group select {
+    flex: 1;
+    padding: 10px 20 px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
 }
 
 
