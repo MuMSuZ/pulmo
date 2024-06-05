@@ -68,7 +68,7 @@ main {
 }
 
 .assess-symptoms {
-    grid-column: span 2;
+    grid-column: span 3;
 }
 
 .post-bd {
@@ -90,7 +90,6 @@ main {
 
 .group-e {
     grid-column: 3;
-    grid-row: span 2;
     background-color: #ffcccb;
     font-size: 2em;
 }
