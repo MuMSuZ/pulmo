@@ -18,6 +18,10 @@ body {
     padding: 20px;
 }
 
+style {
+    text-decoration: none;
+}
+
 /* Başlık stili */
 header {
     background-color: white;
