@@ -84,3 +84,11 @@ main {
 .back-button:hover {
     background-color: #5a6268;
 }
+
+/*Kutu*/
+
+.kutu {
+    margin: auto;
+    box-sizing: 20px;
+    box-shadow: #5a6268;
+}
