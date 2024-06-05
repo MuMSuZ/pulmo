@@ -23,6 +23,10 @@ header p {
     font-size: 1.2em;
 }
 
+style {
+    text-decoration: none;
+}
+
 footer {
     text-align: center;
     font-size: 0.9em;
