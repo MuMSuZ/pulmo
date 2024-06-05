@@ -89,13 +89,13 @@ main {
 }
 
 .group-e {
-    grid-column: 3;
+    grid-column: span 3;
     background-color: #ffcccb;
     font-size: 2em;
 }
 
 .group-a, .group-b {
-    grid-column: 3;
+    grid-column: span 3;
     background-color: #f0e68c;
     font-size: 2em;
 }
