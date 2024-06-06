@@ -87,12 +87,29 @@ main {
     gap: 10px;
 }
 
-.grade {
+.grade, .fev1 {
     grid-column: 1;
     grid-row: 1;
 }
 
-.fev1 {
+
+
+.gold1 {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
+}
+
+.gold2 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.gold3 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.gold4 {
+    grid-column: 1;
+    grid-row: 5;
 }
