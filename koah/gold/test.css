@@ -82,17 +82,20 @@ main {
 
 .grid-govde {
     display: grid;
-    grid-template-columns: 100px 100px 200px;
-    grid-template-rows: 100px repeat(5);
+    grid-template-columns: 50px 50px 50px 50px 200px;
+    grid-template-rows: 50px repeat(5);
     gap: 10px;
 }
 
-.grade, .fev1 {
+.grade {
     grid-column: 1;
     grid-row: 1;
 }
 
-
+.fev1 {
+    grid-column: 2;
+    grid-row: 1;
+}
 
 .gold1 {
     grid-column: 1;
