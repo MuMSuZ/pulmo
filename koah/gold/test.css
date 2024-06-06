@@ -64,10 +64,10 @@ main {
     margin-top: 20px;
 }
 
-.grid-baslik {
+.grid-govde {
     display: grid;
-    grid-template-columns: 200px 200px 400px;
-    grid-template-rows: 100px 100px 200px;
+    grid-template-columns: 120px 120px 150px 300px;
+    grid-template-rows: 50px repeat(6);
     gap: 10px;
 }
 
@@ -82,7 +82,7 @@ main {
 }
 
 .large-item {
-    grid-column: 3;
+    grid-column: 4;
     margin-right: 20px;
 }
 
@@ -92,15 +92,8 @@ main {
 }
 
 .semptom-baslik {
-    grid-column: 5;
+    grid-column: 4;
     grid-row: 1;
-}
-
-.grid-govde {
-    display: grid;
-    grid-template-columns: 120px 120px 80px 80px 300px;
-    grid-template-rows: 50px repeat(6);
-    gap: 10px;
 }
 
 .grade {
@@ -152,6 +145,28 @@ main {
     grid-column: 2;
     grid-row: 6;
 }
+
+.alevlenme-dusuk {
+    grid-column: 3;
+    grid-row: 2 3;
+}
+
+.alevlenme-yuksek {
+    grid-column: 3;
+    grid-row: 4 5;
+}
+
+.grupe {
+    grid-column: 4;
+    grid-row: 2 3;
+}
+
+.grupa, .grupb {
+    grid-column: 4;
+    grid-row: 4 5;
+}
+
+
 
 
 
