@@ -18,10 +18,6 @@ body {
     padding: 20px;
 }
 
-style {
-    text-decoration: none;
-}
-
 a {
     text-decoration: none;
 }
@@ -51,7 +47,7 @@ main {
     margin-top: 20px;
 }
 
-.grid-container {
+.grid-baslik {
     display: grid;
     grid-template-columns: 200px 200px 400px;
     grid-template-rows: 100px 100px 200px;
@@ -82,4 +78,21 @@ main {
     grid-column: 3;
     grid-row: 1;
     padding-right: 20px;
+}
+
+.grid-govde {
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    grid-template-rows: 100px repeat(5);
+    gap: 10px;
+}
+
+.grade {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.fev1 {
+    grid-column: 1;
+    grid-row: 1;
 }
