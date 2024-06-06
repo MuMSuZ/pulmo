@@ -42,6 +42,23 @@ header .container {
     border-radius: 8px;
 }
 
+/* Geri düğmesi stili */
+.back-button {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+}
+
 /* Ana içerik stili */
 main {
     margin-top: 20px;
@@ -135,4 +152,34 @@ main {
 .fev14 {
     grid-column: 2;
     grid-row: 5;
+}
+
+
+
+
+/* Footer stili */
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    padding-top: 20px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
+
+/* Geri düğmesi stili */
+.back-button {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
 }
