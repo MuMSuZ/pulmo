@@ -87,7 +87,7 @@ main {
 }
 
 .grade-baslik {
-    grid-column: 1;
+    grid-column: 1 2;
     grid-row: 1;
 }
 
@@ -164,6 +164,16 @@ main {
 .grupa, .grupb {
     grid-column: 4;
     grid-row: 4 5;
+}
+
+.semptom-dusuk {
+    grid-column: 4;
+    grid-row: 6;
+}
+
+.semptom-yuksek {
+    grid-column: 4;
+    grid-row: 6;
 }
 
 
