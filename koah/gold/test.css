@@ -22,6 +22,10 @@ style {
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Başlık stili */
 header {
     background-color: white;
@@ -68,17 +72,12 @@ main {
     grid-column: 3;
 }
 
-.confirm {
+.grade-baslik {
     grid-column: 1;
     grid-row: 1;
 }
 
-.assess-degree {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.assess-symptoms {
+.semptom-baslik {
     grid-column: 3;
     grid-row: 1;
 }
