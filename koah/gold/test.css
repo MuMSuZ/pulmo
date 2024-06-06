@@ -64,11 +64,35 @@ main {
     margin-top: 20px;
 }
 
-.grid-govde {
+/* Ana konteyner */
+.container-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Grid konteynerleri */
+.grid-container {
     display: grid;
-    grid-template-columns: 120px 120px 50px 150px 300px;
+    gap: 10px;
+    background: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 120px 120px;
     grid-template-rows: 50px repeat(6);
     gap: 10px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 150px 300px;
+    grid-template-rows: 100px repeat(4);
+    gap: 10px
 }
 
 .grid-item {
