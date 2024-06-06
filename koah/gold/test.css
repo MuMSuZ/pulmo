@@ -94,7 +94,6 @@ main {
 .semptom-baslik {
     grid-column: 3;
     grid-row: 1;
-    padding-right: 20px;
 }
 
 .grid-govde {
