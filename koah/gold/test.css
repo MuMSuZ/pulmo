@@ -90,7 +90,7 @@ main {
 
 .grid2 {
     display: grid;
-    grid-template-columns: 150px 300px;
+    grid-template-columns: 200px 300px;
     grid-template-rows: 100px repeat(4);
     gap: 10px
 }
