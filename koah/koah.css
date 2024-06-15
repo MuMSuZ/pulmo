@@ -124,7 +124,7 @@ li a:hover {
 /* Bilgi Kısmı*/
 
     .indendet-text {
-        margin: center;
+        text-align: center;
     }
 
     .spaced-text {
