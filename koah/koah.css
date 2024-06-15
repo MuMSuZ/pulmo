@@ -139,6 +139,8 @@ li a:hover {
         align-items: center;
         border-radius: 4px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin: 10px 0;
+        padding: 10px;
     }
 
     .active, .accordion:hover {
@@ -157,7 +159,7 @@ li a:hover {
         margin-left: auto;
         transition: transform 0.4s;
     }
-    
+
     .accordion.active .arrow {
         transform: rotate(90deg);
     }
