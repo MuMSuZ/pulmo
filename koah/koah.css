@@ -123,6 +123,14 @@ li a:hover {
 
 /* Bilgi Kısmı*/
 
+    .indendet-text {
+        margin: center;
+    }
+
+    .spaced-text {
+        margin-bottom: 20px;
+    }
+
     .accordion {
         background-color: #f9f9f9;
         color: #444;
