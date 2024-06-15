@@ -172,3 +172,9 @@ li a:hover {
     .accordion.active .arrow {
         transform: rotate(90deg);
     }
+
+    panel p {
+        font-size: 1em;
+        color: black;
+        font-weight: bold
+    }
