@@ -124,7 +124,7 @@ li a:hover {
 /* Bilgi Kısmı*/
 
     .accordion {
-        background-color: #f1f1f1;
+        background-color: #f9f9f9;
         color: #444;
         cursor: pointer;
         padding: 18px;
@@ -137,21 +137,27 @@ li a:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
+
     .active, .accordion:hover {
         background-color: #ccc;
     }
+
     .panel {
         padding: 0 18px;
         display: none;
         background-color: white;
         overflow: hidden;
     }
+
     .arrow {
         display: inline-block;
         margin-left: auto;
         transition: transform 0.4s;
     }
+    
     .accordion.active .arrow {
         transform: rotate(90deg);
     }
