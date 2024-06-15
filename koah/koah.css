@@ -123,8 +123,8 @@ li a:hover {
 
 /* Bilgi Kısmı*/
 
-    .indendet-text {
-        margin: 400px
+    .indented-text {
+        text-align: center;
     }
 
     .spaced-text {
@@ -148,7 +148,6 @@ li a:hover {
         border-radius: 4px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         margin: 10px 0;
-        padding: 10px;
     }
 
     .active, .accordion:hover {
@@ -173,7 +172,7 @@ li a:hover {
         transform: rotate(90deg);
     }
 
-    panel p {
+    .panel p {
         font-size: 1em;
         color: black;
         font-weight: bold
