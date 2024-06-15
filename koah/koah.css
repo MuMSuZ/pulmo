@@ -177,3 +177,9 @@ li a:hover {
         color: black;
         font-weight: bold
     }
+
+    .accordion p {
+        font-size: 1em;
+        color: black;
+        font-weight: bold
+    }
