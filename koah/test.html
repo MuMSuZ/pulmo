@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOAH Skorları ve İndeksler</title>
+    <link rel="stylesheet" href="koah.css">
+    <style>
+        .back-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+        }
+        .accordion {
+            background-color: #f1f1f1;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+        .active, .accordion:hover {
+            background-color: #ccc;
+        }
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://mumsuz.github.io/pulmocalc/index.html" class="btn btn-secondary back-button">Geri</a>
+    <header>
+        <div class="container">
+            <h1>Skorlar, İndeksler ve Anketler</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container mt-5">
+            <ul>
+                <li><a href="https://bode-cba83b2256da.herokuapp.com/">BODE İndeksi</a></li>
+                <li><a href="https://mumsuz.github.io/pulmocalc/koah/gold/test.html">GOLD Kriterleri</a></li>
+                <li><a href="https://mumsuz.github.io/pulmocalc/koah/mmrc/mmrc.html">mMRC Dispne Ölçeği</a></li>
+                <li><a href="https://scorecat-d173f76b93ba.herokuapp.com/">CAT Skoru</a></li>
+                <li><a href="https://dose-63a29dbfd7fd.herokuapp.com/">DOSE İndeksi</a></li>
+            </ul>
+            <button class="accordion">KOAH Nedir?</button>
+            <div class="panel">
+                <p>KOAH (Kronik Obstrüktif Akciğer Hastalığı), akciğerlerdeki hava akışının kalıcı olarak kısıtlanmasına neden olan kronik bir hastalıktır. KOAH, genellikle sigara dumanı, hava kirliliği ve kimyasal gazlar gibi zararlı maddelere uzun süre maruz kalma sonucunda gelişir. KOAH'ın başlıca belirtileri arasında uzun süreli öksürük, balgam çıkarma ve nefes darlığı bulunur. Hastalık, zamanla ilerleyerek günlük yaşam aktivitelerini önemli ölçüde kısıtlayabilir. KOAH, tedavi edilebilir bir hastalık olmakla birlikte, erken teşhis ve doğru tedavi yöntemleri ile semptomlar kontrol altına alınabilir ve hastalığın ilerlemesi yavaşlatılabilir.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Designed by MuMSuZ</p>
+    </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
