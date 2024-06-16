@@ -9,8 +9,8 @@ var acc = document.getElementsByClassName("accordion");
                 } else {
                     panel.style.display = "block";
                 }
-                if (panel.id === 'tanım' && !panel.innerHTML) {
-                    loadContent('tanım.txt', panel); // İçeriği yüklemek için panel id'sini kontrol edin
+                if (panel.id === 'tanim' && !panel.innerHTML) {
+                    loadContent('tanim.txt', panel); // İçeriği yüklemek için panel id'sini kontrol edin
                 }
                 if (panel.id === 'yuk' && !panel.innerHTML) {
                     loadContent('yuk.txt', panel);
