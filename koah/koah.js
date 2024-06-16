@@ -9,17 +9,16 @@ var acc = document.getElementsByClassName("accordion");
                 } else {
                     panel.style.display = "block";
                 }
+                if (panel.id === 'tanım') {
+                    loadContent('tanım.txt', panel); // İçeriği yüklemek için panel id'sini kontrol edin
+                }
                 var arrow = this.querySelector(".arrow");
                 if (arrow.style.transform === "rotate(90deg)") {
                     arrow.style.transform = "rotate(0deg)";
                 } else {
                     arrow.style.transform = "rotate(90deg)";
                 }
-
-                // İçeriği yüklemek için panel id'sini kontrol edin
-            if (panel.id === 'tanım') {
-                loadContent('tanım.txt', panel);
-            }
+            
             });
         }
 
