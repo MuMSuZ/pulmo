@@ -33,17 +33,15 @@ var acc = document.getElementsByClassName("accordion");
                     const formattedText = data
                         .split(/\n\s*\n/) // Paragrafları ayırmak için boş satırlara göre böl
                         .map(paragraph => {
-                            // Her paragrafı <p> etiketi içine al ve yeni satırları <br> ile değiştir
-                            return `<p>${paragraph.replace(/\n/g, '<br>')}</p>`;
+                            // Girintili paragraf olup olmadığını kontrol et
+                            if (paragraph.startsWith('*')) {
+                                return `<p class="indented">${paragraph.slice(1).trim().replace(/\n/g, '<br>')}</p>`;
+                            } else {
+                                return `<p>${paragraph.replace(/\n/g, '<br>')}</p>`;
+                            }
                         })
                         .join('');
                     element.innerHTML = formattedText;
-        
-                    // İlk paragrafı girintili yap
-                    const paragraphs = element.getElementsByTagName('p');
-                    if (paragraphs.length > 0) {
-                        paragraphs[0].classList.add('indented');
-                    }
                 })
                 .catch(error => {
                     console.error('Error loading content:', error);
