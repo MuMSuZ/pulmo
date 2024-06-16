@@ -22,3 +22,15 @@ var acc = document.getElementsByClassName("accordion");
             }
             });
         }
+
+        function loadContent(url, element) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    element.innerHTML = data;
+                })
+                .catch(error => {
+                    console.error('Error loading content:', error);
+                    element.innerHTML = 'İçerik yüklenemedi.';
+                });
+        }
