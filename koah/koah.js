@@ -33,16 +33,27 @@ var acc = document.getElementsByClassName("accordion");
                     const formattedText = data
                         .split(/\n\s*\n/) // Paragrafları ayırmak için boş satırlara göre böl
                         .map(paragraph => {
-                            // Girintili satırları kontrol et
+                            // Girintili ve kalın metinleri kontrol et
                             const lines = paragraph.split('\n').map(line => {
+                                // Girintili satırları kontrol et
                                 if (line.includes('*')) {
                                     const parts = line.split('*').map((part, index) => {
-                                        if (index > 0) {
+                                        if (index % 2 === 1) { // Tek indeksler girintili kısımlar olacak
                                             return `<span class="indented">${part.trim()}</span>`;
                                         }
                                         return part;
                                     });
-                                    return parts.join('');
+                                    line = parts.join('');
+                                }
+                                // Kalın metinleri kontrol et
+                                if (line.includes('**')) {
+                                    const parts = line.split('**').map((part, index) => {
+                                        if (index % 2 === 1) { // Tek indeksler kalın kısımlar olacak
+                                            return `<strong>${part.trim()}</strong>`;
+                                        }
+                                        return part;
+                                    });
+                                    line = parts.join('');
                                 }
                                 return line;
                             });
