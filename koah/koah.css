@@ -149,6 +149,10 @@ li a:hover {
     display: inline-block;
 }
 
+strong {
+    font-weight: bold;
+}
+
     .accordion {
         background-color: #f9f9f9;
         color: #444;
