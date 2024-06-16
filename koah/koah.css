@@ -125,6 +125,8 @@ li a:hover {
 
     .indented-text {
         text-align: center;
+        font-size: 1em;
+        font-weight: bold;
     }
 
     .spaced-text {
@@ -165,21 +167,10 @@ li a:hover {
         display: inline-block;
         margin-left: auto;
         transition: transform 0.4s;
-        color: #333;
+        color: #6a0dad;
+        font-weight: bold;
     }
 
     .accordion.active .arrow {
         transform: rotate(90deg);
-    }
-
-    .panel p {
-        font-size: 1em;
-        color: black;
-        font-weight: bold
-    }
-
-    .accordion p {
-        font-size: 1em;
-        color: black;
-        font-weight: bold
     }
