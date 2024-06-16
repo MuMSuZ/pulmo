@@ -39,9 +39,25 @@ var acc = document.getElementsByClassName("accordion");
                             // Girintili ve kalın metinleri kontrol et
                             const lines = paragraph.split('\n').map(line => {
                                 // Girintili satırları kontrol et
-                                line = line.replace(/\*(.*?)\*/g, '<span class="indented">$1</span>');
+                                if (line.includes('*')) {
+                                    const parts = line.split('*').map((part, index) => {
+                                        if (index % 2 === 1) { // Tek indeksler girintili kısımlar olacak
+                                            return `<span class="indented">${part.trim()}</span>`;
+                                        }
+                                        return part;
+                                    });
+                                    line = parts.join('');
+                                }
                                 // Kalın metinleri kontrol et
-                                line = line.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                                if (line.includes('**')) {
+                                    const parts = line.split('**').map((part, index) => {
+                                        if (index % 2 === 1) { // Tek indeksler kalın kısımlar olacak
+                                            return `<strong>${part.trim()}</strong>`;
+                                        }
+                                        return part;
+                                    });
+                                    line = parts.join('');
+                                }
                                 return line;
                             });
                             return `<p>${lines.join('<br>')}</p>`;
@@ -54,4 +70,3 @@ var acc = document.getElementsByClassName("accordion");
                     element.innerHTML = 'İçerik yüklenemedi.';
                 });
         }
-        
