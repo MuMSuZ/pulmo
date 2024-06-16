@@ -184,3 +184,19 @@ li a:hover {
     .accordion.active .arrow {
         transform: rotate(90deg);
     }
+
+    .accordion span {
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+    
+    .accordion .left {
+        order: 1;
+        margin-right: 10px;
+    }
+    
+    .accordion .right {
+        order: 3;
+        margin-left: 10px;
+    }
