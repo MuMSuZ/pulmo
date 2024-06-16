@@ -12,6 +12,9 @@ var acc = document.getElementsByClassName("accordion");
                 if (panel.id === 'tanım') {
                     loadContent('tanım.txt', panel); // İçeriği yüklemek için panel id'sini kontrol edin
                 }
+                if (panel.id === 'yuk') {
+                    loadContent('yuk.txt', panel);
+                }
                 var arrow = this.querySelector(".arrow");
                 if (arrow.style.transform === "rotate(90deg)") {
                     arrow.style.transform = "rotate(0deg)";
