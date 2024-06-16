@@ -32,86 +32,6 @@ footer {
     border-top: 1px solid #ddd;
 }
 
-.result {
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    padding: 15px;
-    margin-top: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-size: 1em
-}
-
-/*Form-group*/
-
-.form-group {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    font-size: 1em;
-    margin-bottom: 20px;  
-    background-color: white;
-}
-
-.form-group label {
-    flex: 2;
-    margin: 10px 20px auto;
-    padding: 10px 20px;
-    text-align: left;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.form-group span {
-    margin: center;
-    padding: 0px 20px;    
-}
-
-.form-group input {
-    flex: 1;
-    padding: 10px 20px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-}
-
-/*Rating*/
-
-.rating-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-}
-
-.rating {
-    display: flex;
-    justify-content: center;
-    flex: 1;
-}
-
-.rating input[type="radio"] {
-    display: none;
-}
-
-.rating label {
-    cursor: pointer;
-    background-color: #ddd;
-    padding: 5px 10px;
-    border-radius: 4px;
-    margin: 0 5px;
-    transition: background-color 0.3s;
-    justify-content: center;
-}
-
-.rating input[type="radio"]:checked + label {
-    background-color: #6a0dad; /* Seçili durumda mor arka plan */
-    color: white;
-}
-
-/*Contairner*/
-
 .container {
     background-color: white;
     border-radius: 8px;
@@ -128,15 +48,28 @@ header .container {
     border-radius: 8px;
 }
 
-.button-container {
-    display: flex;
-    justify-content: right; /* Ortalar */
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
-    padding-right: 40px;
+ul {
+    list-style-type: none; /* Noktaları kaldır */
+    padding: 0;
 }
 
+li {
+    background-color: #f9f9f9; /* Hafif gri arka plan */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
+li a {
+    text-decoration: none;
+    color: #6a0dad; /* Mor yazı */
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #4b0082; /* Koyu mor yazı */
+}
 
 /* Butonların stilini ayarlar */
 .btn {
@@ -197,3 +130,57 @@ header .container {
 .back-button:hover {
     background-color: #5a6268;
 }
+
+/* Bilgi Kısmı*/
+
+    .indented-text {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .spaced-text {
+        margin-bottom: 20px;
+    }
+
+    .accordion {
+        background-color: #f9f9f9;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin: 10px 0;
+    }
+
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+
+    .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .arrow {
+        display: inline-block;
+        margin-left: auto;
+        transition: transform 0.4s;
+        color: #6a0dad;
+        font-weight: bold;
+    }
+
+    .accordion.active .arrow {
+        transform: rotate(90deg);
+    }
