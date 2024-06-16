@@ -6,7 +6,6 @@ Nedenler ve Risk Faktörleri
 
 KOAH, bireyin yaşamı boyunca akciğerlerine zarar verebilecek ve/veya akciğerlerin normal gelişim ve yaşlanma süreçlerini değiştirebilecek gen (G)-çevre (E) etkileşimlerinden (GETomik) kaynaklanır.
 KOAH'a yol açan ana çevresel maruziyetler, tütün dumanı ve ev içi ve dış ortam hava kirliliğinden kaynaklanan toksik partiküller ve gazların solunmasıdır, ancak diğer çevresel ve konakçı faktörler (anormal akciğer gelişimi ve hızlanmış akciğer yaşlanması gibi) da katkıda bulunabilir.
-
 Bugüne kadar tanımlanan en önemli (ancak epidemiyolojik olarak nadir görülen) genetik risk faktörü, SERPINA1 genindeki mutasyonlara yol açan ve α1-antitripsin eksikliğine neden olan genetik bozukluklardır. Ancak, diğer genetik varyantlar da düşük bireysel etki büyüklüğü ile birlikte azalmış akciğer fonksiyonu ve KOAH riski ile ilişkilidir.
 
 Tanı Kriterleri
