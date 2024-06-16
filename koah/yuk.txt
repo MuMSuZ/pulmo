@@ -1,6 +1,7 @@
 * KOAH, dünya genelinde önemli bir morbidite ve mortalite nedenidir ve hem ekonomik hem de sosyal yükü önemli ve artış göstermektedir. KOAH'ın prevalansı, morbiditesi ve mortalitesi ülkeler arasında farklılık göstermektedir. KOAH prevalansı genellikle tütün kullanımının yaygınlığı ile doğrudan ilişkilidir, ancak birçok ülkede dış ortam, mesleki ve ev içi hava kirliliği (odun ve diğer biyokütle yakıtlarının yakılmasından kaynaklanan) önemli KOAH risk faktörleridir.
 * KOAH'ın prevalansının ve yükünün, KOAH risk faktörlerine maruziyetin devam etmesi ve dünya nüfusunun yaşlanması nedeniyle önümüzdeki on yıllarda artması beklenmektedir. KOAH'ın yükü hakkında bilgi, Dünya Sağlık Örgütü (WHO) ve Dünya Bankası/WHO Küresel Hastalık Yükü (GBD) Çalışması gibi uluslararası web sitelerinde bulunabilir.
 
+
 **Prevalans**
 
 * Mevcut KOAH prevalansı verileri, anket yöntemleri, tanı kriterleri ve analitik yaklaşımlardaki farklılıklar nedeniyle geniş ölçüde değişiklik göstermektedir. Dikkate değer olan, bu epidemiyolojik çalışmaların tümü KOAH'ı yalnızca spirometri ile tanımlamıştır. Prevalansın en düşük tahminleri, bir doktorun KOAH tanısını veya eşdeğer bir durumu bildiren kişilerin kendi kendine bildirimine dayanmaktadır. Örneğin, çoğu ulusal veri, yetişkin nüfusun %6'sından daha azının KOAH tanısı aldığını göstermektedir. Bu, KOAH'ın yaygın olarak tanınmaması ve eksik teşhis edilmesinin bir yansıması olabilir.
@@ -9,9 +10,11 @@
 * Obstrüktif Akciğer Hastalıklarının Yükü (BOLD) programı, dünya genelinde 40 yaş ve üzeri kişilerde KOAH prevalansını ve risklerini değerlendirmek için anketler ve bronkodilatör öncesi ve sonrası spirometriyi içeren standartlaştırılmış bir metodoloji kullanmıştır. BOLD, erkekler için %11.8 (standart hata (SE) 7.9) ve kadınlar için %8.5 (SE 5.8) genel KOAH prevalansı bildirmiştir ve hiç sigara içmemiş bireyler arasında %3-%11 arasında önemli bir KOAH prevalansı olduğunu belirtmiştir.
 * BOLD, Kuzey ve Sahra Altı Afrika ve Suudi Arabistan'da KOAH prevalansını incelemiş ve benzer sonuçlar bulmuştur. BOLD ve diğer büyük ölçekli epidemiyolojik çalışmalara dayanarak, dünya genelinde KOAH prevalansının %10.3 (güven aralığı (CI) %95: %8.2, %12.8) olduğu tahmin edilmektedir. Düşük ve orta gelirli ülkelerde sigara içmenin artan prevalansı ve yüksek gelirli ülkelerde yaşlanan nüfusla birlikte, KOAH prevalansının artması beklenmektedir.
 
+
 **Morbidite**
 
 * Morbidite ölçütleri geleneksel olarak doktor ziyaretleri, acil servis ziyaretleri ve hastaneye yatışları içerir. Günümüze kadar yapılan çalışmalar, KOAH'a bağlı morbiditenin yaşla birlikte arttığını ve KOAH'lı hastalarda komorbiditelerin (eşlik eden hastalıklar) daha erken yaşlarda geliştiğini göstermektedir. KOAH'taki morbidite, sigara kullanımı, yaşlanma ve/veya KOAH ile ilişkili olan eşzamanlı kronik durumlar (örneğin, kardiyovasküler hastalık, kas-iskelet sistemi bozuklukları, diyabetes mellitus) tarafından da etkilenebilir.
+
 
 **Mortalite**
 
@@ -19,11 +22,13 @@
 * KOAH'ın yetersiz tanınması ve tanı konulmaması, mortalite verilerinin doğruluğunu azaltır. Ayrıca, idari sağlık veritabanlarında kaydedilen KOAH tanı kodlarının doğruluğu da belirsizdir. Bazı bölgelerde, özellikle sadece hastaneye yatışları kaydeden idari sağlık verilerine dayanmak, KOAH yükünü küçümseyebilir. KOAH ile ilişkili ölümlerin mortalite verilerinde kaydedilmesinin güvenilirliği de sorunludur. KOAH genellikle birincil ölüm nedeni olsa da, katkıda bulunan bir ölüm nedeni olarak listelenmesi veya ölüm belgesinden tamamen çıkarılması daha olasıdır. Ancak, KOAH'ın çoğu ülkede en önemli ölüm nedenlerinden biri olduğu açıktır. Örneğin, 2011 yılında, KOAH Amerika Birleşik Devletleri'nde üçüncü önde gelen ölüm nedeniydi. KOAH ile ilişkili mortalitedeki bu artış, büyük ölçüde genişleyen sigara salgını; diğer yaygın ölüm nedenlerinden (örneğin, iskemik kalp hastalığı, enfeksiyon hastalıkları) kaynaklanan ölümlerdeki azalma; dünya nüfusunun, özellikle yüksek gelirli ülkelerde, yaşlanması ve etkili hastalık değiştirici tedavilerin kıtlığı tarafından yönlendirilmiştir.
 * GBD Çalışması 2017 verileri, KOAH'a atfedilen ölüm oranının 100,000'de 42 (tüm nedenlere bağlı ölümlerin %4.72'si) olduğunu tahmin etmektedir. Bu uyarılar göz önünde bulundurulduğunda, dünya genelinde KOAH nedeniyle yılda yaklaşık üç milyon ölüm olduğu tahmin edilebilir. Düşük ve orta gelirli ülkelerde sigara içme prevalansının artması ve yüksek gelirli ülkelerde yaşlanan nüfusun birleşmesiyle, 2060 yılına kadar KOAH ve ilgili koşullardan kaynaklanan yıllık ölümlerin 5.4 milyonun üzerine çıkacağı tahmin edilmektedir.
 
+
 **Ekonomik Yük**
 
 * KOAH, önemli bir ekonomik yük ile ilişkilidir. Avrupa Birliği'nde, solunum yolu hastalıklarının toplam doğrudan maliyetlerinin yıllık sağlık bütçesinin yaklaşık %6'sını oluşturduğu tahmin edilmektedir ve bu maliyetlerin %56'sı (38.6 milyar Euro) KOAH'a atfedilmektedir.
 * Amerika Birleşik Devletleri'nde KOAH'a bağlı maliyetlerin önümüzdeki 20 yıl içinde artması beklenmektedir ve tahmini maliyetler 800.90 milyar dolar veya yılda 40 milyar dolar olarak öngörülmektedir. Dinamik modellemeler, kadınların erkeklere göre daha yüksek doğrudan maliyetlere katlanmasının ve daha fazla kaliteden ayarlanmış yaşam yılı kaybetmesinin beklendiğini göstermektedir. KOAH alevlenmeleri, sağlık sistemi üzerindeki toplam KOAH yükünün en büyük kısmını oluşturmaktadır. KOAH şiddeti ile bakım maliyeti arasında çarpıcı bir doğrudan ilişki vardır ve hastalık ilerledikçe maliyet dağılımı değişir. Örneğin, hastaneye yatış ve ayakta tedavi oksijen maliyetleri KOAH şiddeti arttıkça hızla artar. Evde bakım için yapılan doğrudan tıbbi harcamaların herhangi bir tahmini, KOAH'lı kişilere aile üyeleri tarafından sağlanan bakımın ekonomik değerini göz ardı ettiği için toplum için evde bakımın gerçek maliyetini tam olarak yansıtmaz.
 * Düşük ve orta gelirli ülkelerde (LMIC'ler) hem doğrudan hem de dolaylı tıbbi maliyetler önemli olabilir. WHO ve diğer kuruluşların son çalışmaları, KOAH için inhalasyon ilaçlarının LMIC'lerde kötü erişilebilir olduğunu ve büyük ölçüde karşılanamaz olduğunu öne sürmektedir. Çoğu inhalasyon ilacı hala markalıdır ve şu anda jenerik inhalerler için birkaç seçenek mevcuttur. Tanısal spirometriye erişim durumu da benzerdir. Sağlık sektörü, ağır engelli bireyler için uzun vadeli destekleyici bakım hizmetleri sağlayamayabileceğinden, KOAH en az iki kişiyi işyerinden ayrılmaya zorlayabilir - etkilenen birey ve engelli akrabasına bakmak zorunda kalan bir aile üyesi. İnsan sermayesi genellikle LMIC'lerin en önemli ulusal varlığı olduğundan, KOAH'ın dolaylı maliyetleri ekonomileri için ciddi bir tehdit oluşturabilir.
+
 
 **Sosyal Yük**
 
