@@ -9,10 +9,10 @@ var acc = document.getElementsByClassName("accordion");
                 } else {
                     panel.style.display = "block";
                 }
-                if (panel.id === 'tanım') {
+                if (panel.id === 'tanım' && !panel.innerHTML) {
                     loadContent('tanım.txt', panel); // İçeriği yüklemek için panel id'sini kontrol edin
                 }
-                if (panel.id === 'yuk') {
+                if (panel.id === 'yuk' && !panel.innerHTML) {
                     loadContent('yuk.txt', panel);
                 }
                 var arrow = this.querySelector(".arrow");
@@ -29,7 +29,12 @@ var acc = document.getElementsByClassName("accordion");
             fetch(url)
                 .then(response => response.text())
                 .then(data => {
-                    element.innerHTML = data;
+                    // Metni HTML olarak biçimlendirin
+                    const formattedText = data
+                        .split(/\n\s*\n/) // Paragrafları ayırmak için boş satırlara göre böl
+                        .map(paragraph => `<p>${paragraph.replace(/\n/g, '<br>')}</p>`) // Paragrafları <p> etiketine sar ve yeni satırları <br> ile değiştir
+                        .join('');
+                    element.innerHTML = formattedText;
                 })
                 .catch(error => {
                     console.error('Error loading content:', error);
