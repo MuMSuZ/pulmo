@@ -146,6 +146,7 @@ li a:hover {
     /* Girintili paragraflar için stil */
 .indented {
     text-indent: 2em; /* Burada girinti miktarını ayarlayabilirsiniz */
+    display: inline-block;
 }
 
     .accordion {
