@@ -197,6 +197,6 @@ li a:hover {
     }
     
     .accordion .right {
-        order: 4;
+        order:2;
         margin-left: 10px;
     }
