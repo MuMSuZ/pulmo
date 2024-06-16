@@ -15,6 +15,9 @@ var acc = document.getElementsByClassName("accordion");
                 if (panel.id === 'yuk' && !panel.innerHTML) {
                     loadContent('yuk.txt', panel);
                 }
+                if (panel.id === 'patogenez' && !panel.innerHTML) {
+                    loadContent('patogenez.txt', panel)
+                }
                 var arrow = this.querySelector(".arrow");
                 if (arrow.style.transform === "rotate(90deg)") {
                     arrow.style.transform = "rotate(0deg)";
