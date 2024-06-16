@@ -49,7 +49,7 @@ var acc = document.getElementsByClassName("accordion");
                                 if (line.includes('**')) {
                                     const parts = line.split('**').map((part, index) => {
                                         if (index % 2 === 1) { // Tek indeksler kalın kısımlar olacak
-                                            return `<strong>${part.trim()}</strong>`;
+                                            return `<bold>${part.trim()}</bold>`;
                                         }
                                         return part;
                                     });
