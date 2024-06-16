@@ -15,5 +15,10 @@ var acc = document.getElementsByClassName("accordion");
                 } else {
                     arrow.style.transform = "rotate(90deg)";
                 }
+
+                // İçeriği yüklemek için panel id'sini kontrol edin
+            if (panel.id === 'tanım') {
+                loadContent('tanım.txt', panel);
+            }
             });
         }
