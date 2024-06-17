@@ -1,3 +1,9 @@
+[submodule "koah/cat"]
+    path = koah/cat
+    url = https://github.com/MuMSuZ/cat-repo.git
 [submodule "koah/bode"]
     path = koah/bode
-    url = https://github.com/MuMSuZ/pulmocalc.git
+    url = https://github.com/MuMSuZ/bode-repo.git
+[submodule "koah/dose"]
+    path = koah/dose
+    url = https://github.com/MuMSuZ/dose-repo.git
