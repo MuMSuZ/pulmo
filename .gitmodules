@@ -1,9 +1,6 @@
 [submodule "koah/cat"]
     path = koah/cat
     url = https://github.com/MuMSuZ/pulmocalc.git
-[submodule "koah/bode"]
-    path = koah/bode
-    url = https://github.com/MuMSuZ/pulmocalc.git
 [submodule "koah/dose"]
     path = koah/dose
     url = https://github.com/MuMSuZ/pulmocalc.git
